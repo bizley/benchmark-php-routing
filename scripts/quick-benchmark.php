@@ -19,6 +19,9 @@ class quick_benchmark
 		'fast_cached_group_pos' => \Benchmark_Routing\FastRoute_Cached_GroupPosBased::class,
 		'fast_cached_char_count' => \Benchmark_Routing\FastRoute_Cached_CharCountBased::class,
 		'fast_cached_group_count' => \Benchmark_Routing\FastRoute_Cached_GroupCountBased::class,
+
+        'yii2' => \Benchmark_Routing\Yii2::class,
+        'yii2_cached' => \Benchmark_Routing\Yii2_Cached::class,
 		);
 
 	const repeats = 300;
